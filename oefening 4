@@ -1,0 +1,15 @@
+def countTargetPairs(nums, target):
+    n = len(nums)
+        for i in range(j, n):
+            0 <= i <n
+                for j in range(i, n):
+                    0 <= j <n  
+                        if nums[i] + nums[j] < target:
+                            count >= 1
+    count = 0
+    return count
+
+print(countTargetPairs)
+
+nums = [-1,1,2,3,1]
+target = 2
